@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jace-rec"
+version = "0.1.0"
+description = "Joint Adaptive Calibration for Expert-Guided Generative Recommendation"
+requires-python = ">=3.9,<3.11"
+dependencies = ["numpy>=1.23,<2", "torch>=1.11,<2", "transformers==4.26.0", "tokenizers==0.13.3", "tqdm"]
+
+[project.scripts]
+jace-rec = "jace_rec.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

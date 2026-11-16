@@ -1,0 +1,643 @@
+{
+  "model_version": "no_selfmatch_v2",
+  "public_download": null,
+  "scope": "GRAM saved-weight evaluation and gate-cache reconstruction",
+  "configurations": {
+    "current-beauty-2023.json": {
+      "domain": "Beauty",
+      "seed": 2023,
+      "selected_step": 300,
+      "files": [
+        "assets/checkpoints/Beauty/2023/gram.pt",
+        "assets/checkpoints/Beauty/2023/head.pt",
+        "assets/checkpoints/Beauty/2023/normalization.json",
+        "assets/checkpoints/Beauty/2023/sasrec.pt",
+        "assets/data/Beauty/calibration_samples.json",
+        "assets/data/Beauty/catalog.json",
+        "assets/data/Beauty/qwen4_embeddings.npz",
+        "assets/data/Beauty/split.json",
+        "assets/data/Beauty/test_samples.json",
+        "assets/data/Beauty/train_samples.json",
+        "assets/data/Beauty/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-beauty-2024.json": {
+      "domain": "Beauty",
+      "seed": 2024,
+      "selected_step": 400,
+      "files": [
+        "assets/checkpoints/Beauty/2024/catalog.json",
+        "assets/checkpoints/Beauty/2024/gram.pt",
+        "assets/checkpoints/Beauty/2024/head.pt",
+        "assets/checkpoints/Beauty/2024/normalization.json",
+        "assets/checkpoints/Beauty/2024/sasrec.pt",
+        "assets/data/Beauty/calibration_samples.json",
+        "assets/data/Beauty/qwen4_embeddings.npz",
+        "assets/data/Beauty/split.json",
+        "assets/data/Beauty/test_samples.json",
+        "assets/data/Beauty/train_samples.json",
+        "assets/data/Beauty/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-beauty-2025.json": {
+      "domain": "Beauty",
+      "seed": 2025,
+      "selected_step": 400,
+      "files": [
+        "assets/checkpoints/Beauty/2025/catalog.json",
+        "assets/checkpoints/Beauty/2025/gram.pt",
+        "assets/checkpoints/Beauty/2025/head.pt",
+        "assets/checkpoints/Beauty/2025/normalization.json",
+        "assets/checkpoints/Beauty/2025/sasrec.pt",
+        "assets/data/Beauty/calibration_samples.json",
+        "assets/data/Beauty/qwen4_embeddings.npz",
+        "assets/data/Beauty/split.json",
+        "assets/data/Beauty/test_samples.json",
+        "assets/data/Beauty/train_samples.json",
+        "assets/data/Beauty/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-sports-2023.json": {
+      "domain": "Sports",
+      "seed": 2023,
+      "selected_step": 300,
+      "files": [
+        "assets/checkpoints/Sports/2023/gram.pt",
+        "assets/checkpoints/Sports/2023/head.pt",
+        "assets/checkpoints/Sports/2023/normalization.json",
+        "assets/checkpoints/Sports/2023/sasrec.pt",
+        "assets/data/Sports/calibration_samples.json",
+        "assets/data/Sports/catalog.json",
+        "assets/data/Sports/qwen4_embeddings.npz",
+        "assets/data/Sports/split.json",
+        "assets/data/Sports/test_samples.json",
+        "assets/data/Sports/train_samples.json",
+        "assets/data/Sports/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-sports-2024.json": {
+      "domain": "Sports",
+      "seed": 2024,
+      "selected_step": 400,
+      "files": [
+        "assets/checkpoints/Sports/2024/catalog.json",
+        "assets/checkpoints/Sports/2024/gram.pt",
+        "assets/checkpoints/Sports/2024/head.pt",
+        "assets/checkpoints/Sports/2024/normalization.json",
+        "assets/checkpoints/Sports/2024/sasrec.pt",
+        "assets/data/Sports/calibration_samples.json",
+        "assets/data/Sports/qwen4_embeddings.npz",
+        "assets/data/Sports/split.json",
+        "assets/data/Sports/test_samples.json",
+        "assets/data/Sports/train_samples.json",
+        "assets/data/Sports/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-sports-2025.json": {
+      "domain": "Sports",
+      "seed": 2025,
+      "selected_step": 400,
+      "files": [
+        "assets/checkpoints/Sports/2025/catalog.json",
+        "assets/checkpoints/Sports/2025/gram.pt",
+        "assets/checkpoints/Sports/2025/head.pt",
+        "assets/checkpoints/Sports/2025/normalization.json",
+        "assets/checkpoints/Sports/2025/sasrec.pt",
+        "assets/data/Sports/calibration_samples.json",
+        "assets/data/Sports/qwen4_embeddings.npz",
+        "assets/data/Sports/split.json",
+        "assets/data/Sports/test_samples.json",
+        "assets/data/Sports/train_samples.json",
+        "assets/data/Sports/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-toys-2023.json": {
+      "domain": "Toys",
+      "seed": 2023,
+      "selected_step": 300,
+      "files": [
+        "assets/checkpoints/Toys/2023/gram.pt",
+        "assets/checkpoints/Toys/2023/head.pt",
+        "assets/checkpoints/Toys/2023/normalization.json",
+        "assets/checkpoints/Toys/2023/sasrec.pt",
+        "assets/data/Toys/calibration_samples.json",
+        "assets/data/Toys/catalog.json",
+        "assets/data/Toys/qwen4_embeddings.npz",
+        "assets/data/Toys/split.json",
+        "assets/data/Toys/test_samples.json",
+        "assets/data/Toys/train_samples.json",
+        "assets/data/Toys/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-toys-2024.json": {
+      "domain": "Toys",
+      "seed": 2024,
+      "selected_step": 400,
+      "files": [
+        "assets/checkpoints/Toys/2024/catalog.json",
+        "assets/checkpoints/Toys/2024/gram.pt",
+        "assets/checkpoints/Toys/2024/head.pt",
+        "assets/checkpoints/Toys/2024/normalization.json",
+        "assets/checkpoints/Toys/2024/sasrec.pt",
+        "assets/data/Toys/calibration_samples.json",
+        "assets/data/Toys/qwen4_embeddings.npz",
+        "assets/data/Toys/split.json",
+        "assets/data/Toys/test_samples.json",
+        "assets/data/Toys/train_samples.json",
+        "assets/data/Toys/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-toys-2025.json": {
+      "domain": "Toys",
+      "seed": 2025,
+      "selected_step": 300,
+      "files": [
+        "assets/checkpoints/Toys/2025/catalog.json",
+        "assets/checkpoints/Toys/2025/gram.pt",
+        "assets/checkpoints/Toys/2025/head.pt",
+        "assets/checkpoints/Toys/2025/normalization.json",
+        "assets/checkpoints/Toys/2025/sasrec.pt",
+        "assets/data/Toys/calibration_samples.json",
+        "assets/data/Toys/qwen4_embeddings.npz",
+        "assets/data/Toys/split.json",
+        "assets/data/Toys/test_samples.json",
+        "assets/data/Toys/train_samples.json",
+        "assets/data/Toys/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-yelp-2023.json": {
+      "domain": "Yelp",
+      "seed": 2023,
+      "selected_step": 400,
+      "files": [
+        "assets/checkpoints/Yelp/2023/gram.pt",
+        "assets/checkpoints/Yelp/2023/head.pt",
+        "assets/checkpoints/Yelp/2023/normalization.json",
+        "assets/checkpoints/Yelp/2023/sasrec.pt",
+        "assets/data/Yelp/calibration_samples.json",
+        "assets/data/Yelp/catalog.json",
+        "assets/data/Yelp/qwen4_embeddings.npz",
+        "assets/data/Yelp/split.json",
+        "assets/data/Yelp/test_samples.json",
+        "assets/data/Yelp/train_samples.json",
+        "assets/data/Yelp/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-yelp-2024.json": {
+      "domain": "Yelp",
+      "seed": 2024,
+      "selected_step": 400,
+      "files": [
+        "assets/checkpoints/Yelp/2024/catalog.json",
+        "assets/checkpoints/Yelp/2024/gram.pt",
+        "assets/checkpoints/Yelp/2024/head.pt",
+        "assets/checkpoints/Yelp/2024/normalization.json",
+        "assets/checkpoints/Yelp/2024/sasrec.pt",
+        "assets/data/Yelp/calibration_samples.json",
+        "assets/data/Yelp/qwen4_embeddings.npz",
+        "assets/data/Yelp/split.json",
+        "assets/data/Yelp/test_samples.json",
+        "assets/data/Yelp/train_samples.json",
+        "assets/data/Yelp/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    },
+    "current-yelp-2025.json": {
+      "domain": "Yelp",
+      "seed": 2025,
+      "selected_step": 300,
+      "files": [
+        "assets/checkpoints/Yelp/2025/catalog.json",
+        "assets/checkpoints/Yelp/2025/gram.pt",
+        "assets/checkpoints/Yelp/2025/head.pt",
+        "assets/checkpoints/Yelp/2025/normalization.json",
+        "assets/checkpoints/Yelp/2025/sasrec.pt",
+        "assets/data/Yelp/calibration_samples.json",
+        "assets/data/Yelp/qwen4_embeddings.npz",
+        "assets/data/Yelp/split.json",
+        "assets/data/Yelp/test_samples.json",
+        "assets/data/Yelp/train_samples.json",
+        "assets/data/Yelp/validation_samples.json",
+        "assets/encoders/t5-small/config.json",
+        "assets/encoders/t5-small/pytorch_model.bin",
+        "assets/encoders/t5-small/spiece.model",
+        "assets/encoders/t5-small/tokenizer.json",
+        "assets/encoders/t5-small/tokenizer_config.json"
+      ]
+    }
+  },
+  "files": {
+    "assets/checkpoints/Beauty/2023/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "cd81c49239cc32ea5e62a6ea4af20b8d8be88cdf9d13d24d8c35d975e2922a83"
+    },
+    "assets/checkpoints/Beauty/2023/sasrec.pt": {
+      "bytes": 3520017,
+      "sha256": "8e45641b9b13a36bf06bdaf44d702713d9c1a662bd3dd743f06ad632b7351af3"
+    },
+    "assets/data/Beauty/calibration_samples.json": {
+      "bytes": 224366,
+      "sha256": "7444e21bf9d898a5844c6d49f3ceed5fbe6d481f15d8864224f41aaf6606f1cd"
+    },
+    "assets/data/Beauty/catalog.json": {
+      "bytes": 25210853,
+      "sha256": "e9d91675176d566b3a77a5d875e0ed264620d9620631e02193bfdb28d1cafa27"
+    },
+    "assets/data/Beauty/qwen4_embeddings.npz": {
+      "bytes": 124398802,
+      "sha256": "883f8024449041e7a7a44d39c8dca344a65125699372463a6e99905a56d817b1"
+    },
+    "assets/data/Beauty/split.json": {
+      "bytes": 104141,
+      "sha256": "3510523542a08d98ed3907dbb589da15f4e48eb4cb35bc8fafdb0b37a1fb6431"
+    },
+    "assets/data/Beauty/test_samples.json": {
+      "bytes": 7703676,
+      "sha256": "e447337b62888b550fd3a65bacc85e041f594b92811be0caede3e2ca2754d1db"
+    },
+    "assets/data/Beauty/train_samples.json": {
+      "bytes": 1121738,
+      "sha256": "fcb0da3a779f93ec50b6b8d9f26a153a05bcc5565ef1cf0e9e1108496545fbd6"
+    },
+    "assets/data/Beauty/validation_samples.json": {
+      "bytes": 7302231,
+      "sha256": "91d5f42bdbc2072b04556f9c18edd069d2e0ee4a305f77e9ecf0d6473d622650"
+    },
+    "assets/encoders/t5-small/config.json": {
+      "bytes": 1206,
+      "sha256": "530e25060e3a8d5f7b0fcf53bfea9f3601165161f3b1914676e98d97cf07bcf1"
+    },
+    "assets/encoders/t5-small/pytorch_model.bin": {
+      "bytes": 242065649,
+      "sha256": "dd8c1c79a54cce728b86bac6c7737800fc1ec009ada37028efff4861a4280ffc"
+    },
+    "assets/encoders/t5-small/spiece.model": {
+      "bytes": 791656,
+      "sha256": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86"
+    },
+    "assets/encoders/t5-small/tokenizer.json": {
+      "bytes": 1389353,
+      "sha256": "d2acde0d8d71dd30a711834b07781b9c89feaac33fd332f60507699282740066"
+    },
+    "assets/encoders/t5-small/tokenizer_config.json": {
+      "bytes": 2324,
+      "sha256": "d1e7146101aa96282057f374aa9c3b260fba2109e5990edb1775d6efc70ffa3c"
+    },
+    "assets/checkpoints/Beauty/2023/head.pt": {
+      "bytes": 1951,
+      "sha256": "d83d90fb9d46063f05c1a1d2c90fd095ef237d1623dc86ad3506ef907c78d172"
+    },
+    "assets/checkpoints/Beauty/2023/normalization.json": {
+      "bytes": 530,
+      "sha256": "1a5c34d65a1ac6005ca418b0cd81623d7472b242f286e0ee1551c0c7a9c3bcee"
+    },
+    "assets/checkpoints/Beauty/2024/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "025ec222663f39749e0cc08c98a7534e8ee4bd7e6ede274dedf7eebfa496577d"
+    },
+    "assets/checkpoints/Beauty/2024/catalog.json": {
+      "bytes": 25219918,
+      "sha256": "50a702ae87448a396605e90b02ace4e159d10d347bf183141f88c2d4bd426cdf"
+    },
+    "assets/checkpoints/Beauty/2024/sasrec.pt": {
+      "bytes": 3518993,
+      "sha256": "6cac9fdf1d1e3439b864bb71871161eb586506ab2dbaa6563436d9af53fb1361"
+    },
+    "assets/checkpoints/Beauty/2024/head.pt": {
+      "bytes": 1951,
+      "sha256": "44d9984d48e2d5810cb68b57586640905de27df2e1328b41f47f5c3545731a17"
+    },
+    "assets/checkpoints/Beauty/2024/normalization.json": {
+      "bytes": 532,
+      "sha256": "afa2eac59ab483729384964c9143b1add38df724270ef85b44d11f0ea39a883c"
+    },
+    "assets/checkpoints/Beauty/2025/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "ebbccea77c121dfdc28d85c3a662d387379ede97461e2009dc528a8c24d2fcb5"
+    },
+    "assets/checkpoints/Beauty/2025/catalog.json": {
+      "bytes": 25223822,
+      "sha256": "54b117d6ef5a7bee6d7ddf26b5d41c8db924b437eaecad65929b9ad11788d7e6"
+    },
+    "assets/checkpoints/Beauty/2025/sasrec.pt": {
+      "bytes": 3518993,
+      "sha256": "a92ef290eb92dbf21932ca8ba6642b654c7d778ad32dbb8d0399b773fd77589d"
+    },
+    "assets/checkpoints/Beauty/2025/head.pt": {
+      "bytes": 1951,
+      "sha256": "e87449b9e4150d9039b0dc8d22a1d953e1f945654e7014616d22845bf5b2011e"
+    },
+    "assets/checkpoints/Beauty/2025/normalization.json": {
+      "bytes": 531,
+      "sha256": "ab28fd2e254289657213a8579415a6fdcadadd0bcd4ccc1e03a506cafaaf1656"
+    },
+    "assets/checkpoints/Sports/2023/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "2bc2748fc30a60a30dafa037a58755257b7c298bf1c9980fa4e5c49c4980fd08"
+    },
+    "assets/checkpoints/Sports/2023/sasrec.pt": {
+      "bytes": 5120465,
+      "sha256": "3b7d130ed40602824494c73a72b223cb9db06347eb3780a06e1a316582fc2e6f"
+    },
+    "assets/data/Sports/calibration_samples.json": {
+      "bytes": 359534,
+      "sha256": "d85f9e5ee205e617c94b766ee09c97acf9da8f7c80cdeae65bf6fb0180e7da9c"
+    },
+    "assets/data/Sports/catalog.json": {
+      "bytes": 29344904,
+      "sha256": "b6a2a9aa171f5fd99f603e6f9d9c962246d4b909dd0687992b6aefb5899be8e0"
+    },
+    "assets/data/Sports/qwen4_embeddings.npz": {
+      "bytes": 188710482,
+      "sha256": "b70bcaece881f3c84c2ad0b7d90257cf622f175d2886677f22f7505b8a3960ca"
+    },
+    "assets/data/Sports/split.json": {
+      "bytes": 169249,
+      "sha256": "63498ccadf9ea32399c09274e53d1d627504f98b0e58d785f477106210025bd2"
+    },
+    "assets/data/Sports/test_samples.json": {
+      "bytes": 10969004,
+      "sha256": "f43b444918eb6f20f64829d530b8f5f5d2a140aa038b13f375d00225af0be869"
+    },
+    "assets/data/Sports/train_samples.json": {
+      "bytes": 1783518,
+      "sha256": "0aa4f56fae2575ed81bc8ecd903778270b1b33e48efdb8aa8f24f75b6328a7ff"
+    },
+    "assets/data/Sports/validation_samples.json": {
+      "bytes": 10304371,
+      "sha256": "1b1f7dd9ffefc93e4d7854ac92d4437006759008b7e9b21c0ee22126d6d5b783"
+    },
+    "assets/checkpoints/Sports/2023/head.pt": {
+      "bytes": 1951,
+      "sha256": "6b0efba19007c03f25aae082d3176681084b9fed051b3186a3e37ca3da07625a"
+    },
+    "assets/checkpoints/Sports/2023/normalization.json": {
+      "bytes": 531,
+      "sha256": "59d5b3266aed262cfca6ba5e88fa1049ebc37fcb790a1017d97c9181332f8d3d"
+    },
+    "assets/checkpoints/Sports/2024/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "de5b88cf253992e13d6c64a1a04a07f715486bdb2dd27d37ae0d4979e7869721"
+    },
+    "assets/checkpoints/Sports/2024/catalog.json": {
+      "bytes": 29332839,
+      "sha256": "f43aa891db6f1325c104822943dc2be74cf52a56c167ddee87e1e53352b2a70d"
+    },
+    "assets/checkpoints/Sports/2024/sasrec.pt": {
+      "bytes": 5120529,
+      "sha256": "363360dabbc82b418534b7824024960c886d6741c2a36a776a48413a305ad7c8"
+    },
+    "assets/checkpoints/Sports/2024/head.pt": {
+      "bytes": 1951,
+      "sha256": "4f76fbe3ee626fe618a8dd31e074b16243c9e9c1a1b3930d9342d5aa56b98606"
+    },
+    "assets/checkpoints/Sports/2024/normalization.json": {
+      "bytes": 532,
+      "sha256": "eed616d866f54230aac6bc4402cb618182526132f4a4c6d376fa245cc4ecbc4a"
+    },
+    "assets/checkpoints/Sports/2025/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "d10229589f4aa20c876f208b9c34a4d429bf0c444bb0eb966c70a4fa2a5f7396"
+    },
+    "assets/checkpoints/Sports/2025/catalog.json": {
+      "bytes": 29355108,
+      "sha256": "a2fdb31a06eba5b3c74f59f833b87c80518dd055c4a60447b5884d53b2393a81"
+    },
+    "assets/checkpoints/Sports/2025/sasrec.pt": {
+      "bytes": 5120529,
+      "sha256": "12f65af9df0ea068af892d9e4cf4fae693434a51de63ef15cff9032f3359f1d4"
+    },
+    "assets/checkpoints/Sports/2025/head.pt": {
+      "bytes": 1951,
+      "sha256": "713dfbfca71cdc6155082a61fec2e31b85c678bd1deba4846cb1731007815530"
+    },
+    "assets/checkpoints/Sports/2025/normalization.json": {
+      "bytes": 532,
+      "sha256": "21de6486b1c295abba141df2ad48712d9d398b5d29ca44c92b9f7556e4688b87"
+    },
+    "assets/checkpoints/Toys/2023/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "b2645a6cd7ae8f243098c7233188dd1626a21989a870b7fb52c3dc3b367ed5a5"
+    },
+    "assets/checkpoints/Toys/2023/sasrec.pt": {
+      "bytes": 3474705,
+      "sha256": "6cf749d8550da07f7455999dcf30743a4020fc1658dc0d48c38d531b67deb45b"
+    },
+    "assets/data/Toys/calibration_samples.json": {
+      "bytes": 181167,
+      "sha256": "4fd451fd98736de2049e24bf750506b244eec9541fd1b96948484b82ec78cb4a"
+    },
+    "assets/data/Toys/catalog.json": {
+      "bytes": 15350110,
+      "sha256": "deefd82fb645afcf3dda40d4b039644b18d1b82814f7d947f413a39d96cd4bac"
+    },
+    "assets/data/Toys/qwen4_embeddings.npz": {
+      "bytes": 122579242,
+      "sha256": "fd21d0cd895f5a701e66c09fffed4c42936b906bd537d23897015c58fa7ab88a"
+    },
+    "assets/data/Toys/split.json": {
+      "bytes": 87073,
+      "sha256": "d10fbff6f9cd0817874566647a05af6dff583ae1e0dc0bc06c9f2b5c4e66d5f4"
+    },
+    "assets/data/Toys/test_samples.json": {
+      "bytes": 6565426,
+      "sha256": "e7536b15727ae4bb098632f9e69a0bdfde67ff8991c188a62f3bd7d9c38177ed"
+    },
+    "assets/data/Toys/train_samples.json": {
+      "bytes": 909420,
+      "sha256": "06cbe6fd1510000d3aa71b77b79b264d88dfbbfe16a193f12c66a88bc9898853"
+    },
+    "assets/data/Toys/validation_samples.json": {
+      "bytes": 6216272,
+      "sha256": "d989ad40aeb1024b6f3a291046a4eccd13f86b0fb358f43aba198914c12bc673"
+    },
+    "assets/checkpoints/Toys/2023/head.pt": {
+      "bytes": 1951,
+      "sha256": "201eef5d1a28ab5525f1c71a4ce5683e384264659fefaec0f4cbe8404d5974c7"
+    },
+    "assets/checkpoints/Toys/2023/normalization.json": {
+      "bytes": 532,
+      "sha256": "fc3879f3bebc4ba17693bc996e71146abf519b75b9eb29b239e2ea51949e8f05"
+    },
+    "assets/checkpoints/Toys/2024/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "f2fe25d3fba8a89d48d179a1582195b7eedca2f5e7d993c988f8488be8fd98bf"
+    },
+    "assets/checkpoints/Toys/2024/catalog.json": {
+      "bytes": 15352781,
+      "sha256": "d813fdea81a9ab4f1210bd1615fa7c6204fc74ce1d461c7804327eb9c362aee2"
+    },
+    "assets/checkpoints/Toys/2024/sasrec.pt": {
+      "bytes": 3473681,
+      "sha256": "835d66176fc29511b532538555902a489c5906474789dc35b446e0209c4f3258"
+    },
+    "assets/checkpoints/Toys/2024/head.pt": {
+      "bytes": 1951,
+      "sha256": "9753450c0e3eb1ae2409358272c6846d6c69dc930507fb9728558f535cc93b9c"
+    },
+    "assets/checkpoints/Toys/2024/normalization.json": {
+      "bytes": 530,
+      "sha256": "3cd8d3eff95ce9f5a5e20f70d701b2b4fe6dc33295a1d3f28c93f699e1a3a1d9"
+    },
+    "assets/checkpoints/Toys/2025/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "76cf1793451dbccf6333c186991a0c45d7f82dcbf755652fba212633ed66144c"
+    },
+    "assets/checkpoints/Toys/2025/catalog.json": {
+      "bytes": 15348443,
+      "sha256": "829aa2ff459e82ed9b175821fefc3b089737a3ce40e3411d856c09652e820dc2"
+    },
+    "assets/checkpoints/Toys/2025/sasrec.pt": {
+      "bytes": 3473681,
+      "sha256": "21c6c5ec1805d1a1f2a9cb0214f9f333d247ba180d9f610d51b0ea8e53c63065"
+    },
+    "assets/checkpoints/Toys/2025/head.pt": {
+      "bytes": 1951,
+      "sha256": "65b987207b5f7344b3e022eecd138dd097f5525656e287df5b4b2ac62c57f46e"
+    },
+    "assets/checkpoints/Toys/2025/normalization.json": {
+      "bytes": 532,
+      "sha256": "4643144da7f1f42972e7ddb285695e9249538abe7b7f3e9f9ef6a700b09817f2"
+    },
+    "assets/checkpoints/Yelp/2023/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "1d138cacf6a46a79b0d8e25e2fb77cfb44f5cf298a3a2da911ae78ac3b6f44d5"
+    },
+    "assets/checkpoints/Yelp/2023/sasrec.pt": {
+      "bytes": 5549521,
+      "sha256": "a54fae05c16ad88d00c0705aa8f4ed5360e7311c1e263c778e3f60e812cb28e3"
+    },
+    "assets/data/Yelp/calibration_samples.json": {
+      "bytes": 346610,
+      "sha256": "82f38f06e23685eec794f3fb6b92dec6e07ac38f1457164cc226aa557a4d8528"
+    },
+    "assets/data/Yelp/catalog.json": {
+      "bytes": 24731526,
+      "sha256": "0958f79881411009380fba416a2a36b8bb8f262d0b51bbe5578fe01e788643f0"
+    },
+    "assets/data/Yelp/qwen4_embeddings.npz": {
+      "bytes": 206901346,
+      "sha256": "9d9f51e64875620b8d5dbcaec9e86db522154e3b8015ac52f9dc626d71ae3971"
+    },
+    "assets/data/Yelp/split.json": {
+      "bytes": 181513,
+      "sha256": "7f2412b3e341b29c62f9f875920fc44cbeb2e76fc600e28374b0a5f683693c59"
+    },
+    "assets/data/Yelp/test_samples.json": {
+      "bytes": 10913681,
+      "sha256": "3531f15812f6a8227c77a77da1e45712e7cc3e89c72750f943f9ed9ff4b90634"
+    },
+    "assets/data/Yelp/train_samples.json": {
+      "bytes": 1769355,
+      "sha256": "958a34633f9ce4cc65b92197761f53b7de18a8c801c2ff4af201163b7bc85969"
+    },
+    "assets/data/Yelp/validation_samples.json": {
+      "bytes": 10368228,
+      "sha256": "85e0677c4d081853b7d00d0547c91a8c7c0b5a26d58561e81d8bba0dc2501468"
+    },
+    "assets/checkpoints/Yelp/2023/normalization.json": {
+      "bytes": 514,
+      "sha256": "44814ccf3fb2ee6c08ff4e438357123b72226e8f31123aa09063b6bd23a075cf"
+    },
+    "assets/checkpoints/Yelp/2023/head.pt": {
+      "bytes": 1823,
+      "sha256": "0a55805902eb3f9e0d314369e58d1872abd283ba445e52042eeb635de60588e5"
+    },
+    "assets/checkpoints/Yelp/2024/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "9f7ab88825260af1fcb9caaffd46a866d43f2c649478a1a6cd8e97b1b32ef1ec"
+    },
+    "assets/checkpoints/Yelp/2024/catalog.json": {
+      "bytes": 24731219,
+      "sha256": "944a4be3e15a8277958cbdd1481c2c9a9f29c6c198250ceca4b66a7cc7d6cd77"
+    },
+    "assets/checkpoints/Yelp/2024/sasrec.pt": {
+      "bytes": 5549585,
+      "sha256": "1597a72c7f8ee296ef3262ec1582fd465c4544fbba03c84cf22a1de9782cf0da"
+    },
+    "assets/checkpoints/Yelp/2024/head.pt": {
+      "bytes": 1951,
+      "sha256": "078b85ace1188c29fb8773df5b9284bc306216ccafd469bf320d2513eb5f7f73"
+    },
+    "assets/checkpoints/Yelp/2024/normalization.json": {
+      "bytes": 534,
+      "sha256": "a4ed6df28d91f36fecae73fbe8ac8d42dad6cc7609e7fd63367a146377330a82"
+    },
+    "assets/checkpoints/Yelp/2025/gram.pt": {
+      "bytes": 439550897,
+      "sha256": "1cde75408221474c7be0dcad073a12099a1d244b6f170cce58736dcc45785d3a"
+    },
+    "assets/checkpoints/Yelp/2025/catalog.json": {
+      "bytes": 24730479,
+      "sha256": "81b4e8f98777b3061ed19efd1701e3d07f186596ef53742cd3a317bbe31c7745"
+    },
+    "assets/checkpoints/Yelp/2025/sasrec.pt": {
+      "bytes": 5549585,
+      "sha256": "2efd0b586546c179f89af2cc4c6e0a84d3cb0d6f9fc710f5ba5e353e9caca0bb"
+    },
+    "assets/checkpoints/Yelp/2025/head.pt": {
+      "bytes": 1951,
+      "sha256": "a87fd9a434b6b45dfa1b6f59a9732d86679af6493a68ff0dde557844dc290145"
+    },
+    "assets/checkpoints/Yelp/2025/normalization.json": {
+      "bytes": 534,
+      "sha256": "b2a53c395eaa5bff9c07bfb2512ec282b88b234e6695586410d6a4a6d7c9f5cc"
+    }
+  },
+  "total_bytes": 6575983331,
+  "checkpoint_export": "Selected state tensors preserved exactly; optimizer and internal metadata omitted."
+}

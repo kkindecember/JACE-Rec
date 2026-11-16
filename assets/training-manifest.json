@@ -1,0 +1,96 @@
+{
+  "files": {
+    "assets/data/Toys/upstream_sequences.jsonl": {
+      "bytes": 1582066,
+      "sha256": "bd5dda80b1a56e37b14ede1b786c11821f8720d27f01bc8147cd6938a2e204c9"
+    },
+    "assets/data/Toys/gram_train.jsonl": {
+      "bytes": 10388494,
+      "sha256": "e1d6bb5cc4156a100336cdf1bd68bf1bdc5bc0759a951814437c3861e12b4949"
+    },
+    "assets/data/Toys/encoder_texts.json": {
+      "bytes": 8094497,
+      "sha256": "a9d33bc64699d7913f31aca46a480a33c18ee18ad78c9aa1b3c3f76ee94264c3"
+    },
+    "assets/data/Toys/raw/item_generative_indexing_hierarchy_v1_c32_l5_len32768_split.txt": {
+      "bytes": 643301,
+      "sha256": "108282ba2add739ab9e096cfc438fa8d806a53baec3b098d534673117c89b11e"
+    },
+    "assets/data/Toys/raw/item_plain_text.txt": {
+      "bytes": 7595045,
+      "sha256": "e2d4f59b59381a4519905c94409d334bcd092f060d4a1d52df1bb4d9b63a8507"
+    },
+    "assets/data/Toys/raw/user_sequence.txt": {
+      "bytes": 2129679,
+      "sha256": "9c2f2cce5323c5e5fd840896a68f0274aba4c241c54f0bc77ac9183094004071"
+    },
+    "assets/data/Beauty/upstream_sequences.jsonl": {
+      "bytes": 1868196,
+      "sha256": "e520b0f96bd95137f659424f433fecbbe0213e855826c5274c10963606e990d9"
+    },
+    "assets/data/Beauty/gram_train.jsonl": {
+      "bytes": 12768272,
+      "sha256": "38ae4ad82a0aecfde4acfbe411fb0eac52604d9b618ebc665779b9231bcc845f"
+    },
+    "assets/data/Beauty/encoder_texts.json": {
+      "bytes": 8727452,
+      "sha256": "3fce9edef9360e70dd572843ce9d851017025e240facf3a60cebb0ef30163b43"
+    },
+    "assets/data/Beauty/raw/item_generative_indexing_hierarchy_v1_c128_l7_len32768_split.txt": {
+      "bytes": 818050,
+      "sha256": "2bfa6792146c27884f27ae7ffab223eb93b5151f8bfcce2939f93b87be7add5b"
+    },
+    "assets/data/Beauty/raw/item_plain_text.txt": {
+      "bytes": 7766790,
+      "sha256": "d2a4446fd36d2a13fdca89bed64730bde37f49330c35fa0d5be1d719479cdacc"
+    },
+    "assets/data/Beauty/raw/user_sequence.txt": {
+      "bytes": 2513357,
+      "sha256": "47197cbee7bdc1896926e10d96b807dce0aecb9a1f0c2ccc887c21090237c9b7"
+    },
+    "assets/data/Sports/upstream_sequences.jsonl": {
+      "bytes": 2602225,
+      "sha256": "abc1ec4018c072cd6bd3605aad5d3e36f50d55ddcdc631fe162352d80f77472e"
+    },
+    "assets/data/Sports/gram_train.jsonl": {
+      "bytes": 15469650,
+      "sha256": "6d92453520fd3e5f54520280d55e62a21f9026aa8a476d05a217b35e18ff1d2a"
+    },
+    "assets/data/Sports/encoder_texts.json": {
+      "bytes": 14522480,
+      "sha256": "e8102158d5f3a06762236b01d608893d819ac8f61e17ccb177751db4a491c7b9"
+    },
+    "assets/data/Sports/raw/item_generative_indexing_hierarchy_v1_c32_l7_len32768_split.txt": {
+      "bytes": 1256604,
+      "sha256": "fc5a8e6787df5bf679a299315633d90a82fe6b334bdc8fc02728f54f1284ce87"
+    },
+    "assets/data/Sports/raw/item_plain_text.txt": {
+      "bytes": 13565240,
+      "sha256": "ff2e834a7e91a431020bb7faf0578137e2e6d65d53312ade70beeec359277f36"
+    },
+    "assets/data/Sports/raw/user_sequence.txt": {
+      "bytes": 3784674,
+      "sha256": "240fd0484501ca53769c016cb1bc674ac7e420aef562b88cea1439b94a3ba044"
+    },
+    "assets/data/Yelp/upstream_sequences.jsonl": {
+      "bytes": 2851947,
+      "sha256": "e06c36e670c3d00f4c1a5e2714ce683011bcc2477eed0bcd2439a4e37a1c7dbd"
+    },
+    "assets/data/Yelp/gram_train.jsonl": {
+      "bytes": 23591500,
+      "sha256": "8e4b2918c49e1a549db2db1736881c9dd815fc09aa9de17a70ff0cae3125e7de"
+    },
+    "assets/data/Yelp/encoder_texts.json": {
+      "bytes": 12898437,
+      "sha256": "08af2f1cf2105e01f11d02869567e8bd4da44f81a99261b25fff8570c19646ab"
+    },
+    "assets/data/Yelp/raw/item_plain_text.txt": {
+      "bytes": 12617935,
+      "sha256": "15ad28b69f0cbc4271908341ce389b841bfd2b724d7560312bc0a0d9762a7e57"
+    },
+    "assets/data/Yelp/raw/user_sequence.txt": {
+      "bytes": 7976055,
+      "sha256": "6d4ffa25e92f91c73c22fae1c4a0f507b1c91065d9f7c64434431dadaf8996d8"
+    }
+  }
+}

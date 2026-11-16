@@ -1,0 +1,43 @@
+{
+  "domain": "Yelp",
+  "lexical_type": "hierarchy_v1_c32_l9_len128_split",
+  "parent_epoch": 20,
+  "score_scale": 20.0,
+  "text_recency_decay": 0.1,
+  "gram_history": 20,
+  "sas_history": 50,
+  "text_history": "full visible",
+  "beam_size": 50,
+  "length_penalty": 1.0,
+  "training": {
+    "seed": 2,
+    "updates": 400,
+    "batch_size": 32,
+    "lr": 0.01,
+    "weight_decay": 0.001,
+    "snapshots": [
+      0,
+      300,
+      400
+    ]
+  },
+  "paths": {
+    "data": "assets/data/Yelp",
+    "cache": "runs/yelp-2025/cache",
+    "gram": "assets/checkpoints/Yelp/2025/gram.pt",
+    "sasrec": "assets/checkpoints/Yelp/2025/sasrec.pt",
+    "heads": "runs/yelp-2025/heads",
+    "embeddings": "assets/data/Yelp/qwen4_embeddings.npz",
+    "t5": "assets/encoders/t5-small",
+    "qwen": "assets/encoders/qwen3-embedding-4b",
+    "catalog": "assets/checkpoints/Yelp/2025/catalog.json",
+    "gram_train": "assets/data/Yelp/gram_train.jsonl",
+    "normalization": "assets/checkpoints/Yelp/2025/normalization.json",
+    "head": "assets/checkpoints/Yelp/2025/head.pt"
+  },
+  "checkpoint_status": "status/seed2025/yelp_checkpoints",
+  "checkpoint_config": "configs/checkpoints-yelp-2025.json",
+  "model_version": "no_selfmatch_v2",
+  "generator_seed": 2025,
+  "expert_gate_seed": 2
+}

@@ -1,0 +1,7 @@
+# Independent Python 3.11 environment for offline Qwen encoding.
+torch==2.5.1
+transformers==4.51.3
+tokenizers==0.21.4
+numpy==2.2.6
+huggingface-hub==0.36.2
+safetensors==0.8.0

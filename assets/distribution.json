@@ -1,0 +1,169 @@
+{
+  "release_tag": "assets-v1",
+  "hosting": "GitHub Releases",
+  "publication_status": "prepared_locally",
+  "bundles": {
+    "toys": {
+      "file": "jace-toys-assets-v1.tar.gz",
+      "bytes": 1349958745,
+      "sha256": "21725c8c0cccf27b52a1494d229a571729d35f1bf779578a98eeed1e426f25bd",
+      "files": [
+        "assets/checkpoints/Toys/2023/gram.pt",
+        "assets/checkpoints/Toys/2023/head.pt",
+        "assets/checkpoints/Toys/2023/normalization.json",
+        "assets/checkpoints/Toys/2023/sasrec.pt",
+        "assets/checkpoints/Toys/2024/catalog.json",
+        "assets/checkpoints/Toys/2024/gram.pt",
+        "assets/checkpoints/Toys/2024/head.pt",
+        "assets/checkpoints/Toys/2024/normalization.json",
+        "assets/checkpoints/Toys/2024/sasrec.pt",
+        "assets/checkpoints/Toys/2025/catalog.json",
+        "assets/checkpoints/Toys/2025/gram.pt",
+        "assets/checkpoints/Toys/2025/head.pt",
+        "assets/checkpoints/Toys/2025/normalization.json",
+        "assets/checkpoints/Toys/2025/sasrec.pt",
+        "assets/data/Toys/calibration_samples.json",
+        "assets/data/Toys/catalog.json",
+        "assets/data/Toys/encoder_texts.json",
+        "assets/data/Toys/gram_train.jsonl",
+        "assets/data/Toys/qwen4_embeddings.npz",
+        "assets/data/Toys/raw/item_generative_indexing_hierarchy_v1_c32_l5_len32768_split.txt",
+        "assets/data/Toys/raw/item_plain_text.txt",
+        "assets/data/Toys/raw/user_sequence.txt",
+        "assets/data/Toys/split.json",
+        "assets/data/Toys/test_samples.json",
+        "assets/data/Toys/train_samples.json",
+        "assets/data/Toys/upstream_sequences.jsonl",
+        "assets/data/Toys/validation_samples.json"
+      ]
+    },
+    "beauty": {
+      "file": "jace-beauty-assets-v1.tar.gz",
+      "bytes": 1360587948,
+      "sha256": "d3318f3405b3611b79ff883b38de0081fb1b1df33385fae14044b24868ac3d63",
+      "files": [
+        "assets/checkpoints/Beauty/2023/gram.pt",
+        "assets/checkpoints/Beauty/2023/head.pt",
+        "assets/checkpoints/Beauty/2023/normalization.json",
+        "assets/checkpoints/Beauty/2023/sasrec.pt",
+        "assets/checkpoints/Beauty/2024/catalog.json",
+        "assets/checkpoints/Beauty/2024/gram.pt",
+        "assets/checkpoints/Beauty/2024/head.pt",
+        "assets/checkpoints/Beauty/2024/normalization.json",
+        "assets/checkpoints/Beauty/2024/sasrec.pt",
+        "assets/checkpoints/Beauty/2025/catalog.json",
+        "assets/checkpoints/Beauty/2025/gram.pt",
+        "assets/checkpoints/Beauty/2025/head.pt",
+        "assets/checkpoints/Beauty/2025/normalization.json",
+        "assets/checkpoints/Beauty/2025/sasrec.pt",
+        "assets/data/Beauty/calibration_samples.json",
+        "assets/data/Beauty/catalog.json",
+        "assets/data/Beauty/encoder_texts.json",
+        "assets/data/Beauty/gram_train.jsonl",
+        "assets/data/Beauty/qwen4_embeddings.npz",
+        "assets/data/Beauty/raw/item_generative_indexing_hierarchy_v1_c128_l7_len32768_split.txt",
+        "assets/data/Beauty/raw/item_plain_text.txt",
+        "assets/data/Beauty/raw/user_sequence.txt",
+        "assets/data/Beauty/split.json",
+        "assets/data/Beauty/test_samples.json",
+        "assets/data/Beauty/train_samples.json",
+        "assets/data/Beauty/upstream_sequences.jsonl",
+        "assets/data/Beauty/validation_samples.json"
+      ]
+    },
+    "sports": {
+      "file": "jace-sports-assets-v1.tar.gz",
+      "bytes": 1437255263,
+      "sha256": "840feb0a7c60de8f991f79a6eb914fa7fb586e88c607da7def95c65d5aeae2d0",
+      "files": [
+        "assets/checkpoints/Sports/2023/gram.pt",
+        "assets/checkpoints/Sports/2023/head.pt",
+        "assets/checkpoints/Sports/2023/normalization.json",
+        "assets/checkpoints/Sports/2023/sasrec.pt",
+        "assets/checkpoints/Sports/2024/catalog.json",
+        "assets/checkpoints/Sports/2024/gram.pt",
+        "assets/checkpoints/Sports/2024/head.pt",
+        "assets/checkpoints/Sports/2024/normalization.json",
+        "assets/checkpoints/Sports/2024/sasrec.pt",
+        "assets/checkpoints/Sports/2025/catalog.json",
+        "assets/checkpoints/Sports/2025/gram.pt",
+        "assets/checkpoints/Sports/2025/head.pt",
+        "assets/checkpoints/Sports/2025/normalization.json",
+        "assets/checkpoints/Sports/2025/sasrec.pt",
+        "assets/data/Sports/calibration_samples.json",
+        "assets/data/Sports/catalog.json",
+        "assets/data/Sports/encoder_texts.json",
+        "assets/data/Sports/gram_train.jsonl",
+        "assets/data/Sports/qwen4_embeddings.npz",
+        "assets/data/Sports/raw/item_generative_indexing_hierarchy_v1_c32_l7_len32768_split.txt",
+        "assets/data/Sports/raw/item_plain_text.txt",
+        "assets/data/Sports/raw/user_sequence.txt",
+        "assets/data/Sports/split.json",
+        "assets/data/Sports/test_samples.json",
+        "assets/data/Sports/train_samples.json",
+        "assets/data/Sports/upstream_sequences.jsonl",
+        "assets/data/Sports/validation_samples.json"
+      ]
+    },
+    "yelp": {
+      "file": "jace-yelp-assets-v1.tar.gz",
+      "bytes": 1439740055,
+      "sha256": "fbc0794ba0aaa531361c60ebc34b4987a89d024a67392c9b1f66b81f19743d2d",
+      "files": [
+        "assets/checkpoints/Yelp/2023/gram.pt",
+        "assets/checkpoints/Yelp/2023/head.pt",
+        "assets/checkpoints/Yelp/2023/normalization.json",
+        "assets/checkpoints/Yelp/2023/sasrec.pt",
+        "assets/checkpoints/Yelp/2024/catalog.json",
+        "assets/checkpoints/Yelp/2024/gram.pt",
+        "assets/checkpoints/Yelp/2024/head.pt",
+        "assets/checkpoints/Yelp/2024/normalization.json",
+        "assets/checkpoints/Yelp/2024/sasrec.pt",
+        "assets/checkpoints/Yelp/2025/catalog.json",
+        "assets/checkpoints/Yelp/2025/gram.pt",
+        "assets/checkpoints/Yelp/2025/head.pt",
+        "assets/checkpoints/Yelp/2025/normalization.json",
+        "assets/checkpoints/Yelp/2025/sasrec.pt",
+        "assets/data/Yelp/calibration_samples.json",
+        "assets/data/Yelp/catalog.json",
+        "assets/data/Yelp/encoder_texts.json",
+        "assets/data/Yelp/gram_train.jsonl",
+        "assets/data/Yelp/qwen4_embeddings.npz",
+        "assets/data/Yelp/raw/item_plain_text.txt",
+        "assets/data/Yelp/raw/user_sequence.txt",
+        "assets/data/Yelp/split.json",
+        "assets/data/Yelp/test_samples.json",
+        "assets/data/Yelp/train_samples.json",
+        "assets/data/Yelp/upstream_sequences.jsonl",
+        "assets/data/Yelp/validation_samples.json"
+      ]
+    }
+  },
+  "upstream": {
+    "assets/encoders/t5-small/config.json": {
+      "bytes": 1206,
+      "sha256": "530e25060e3a8d5f7b0fcf53bfea9f3601165161f3b1914676e98d97cf07bcf1",
+      "url": "https://huggingface.co/google-t5/t5-small/resolve/df1b051c49625cf57a3d0d8d3863ed4d13564fe4/config.json"
+    },
+    "assets/encoders/t5-small/pytorch_model.bin": {
+      "bytes": 242065649,
+      "sha256": "dd8c1c79a54cce728b86bac6c7737800fc1ec009ada37028efff4861a4280ffc",
+      "url": "https://huggingface.co/google-t5/t5-small/resolve/df1b051c49625cf57a3d0d8d3863ed4d13564fe4/pytorch_model.bin"
+    },
+    "assets/encoders/t5-small/spiece.model": {
+      "bytes": 791656,
+      "sha256": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86",
+      "url": "https://huggingface.co/google-t5/t5-small/resolve/df1b051c49625cf57a3d0d8d3863ed4d13564fe4/spiece.model"
+    },
+    "assets/encoders/t5-small/tokenizer.json": {
+      "bytes": 1389353,
+      "sha256": "d2acde0d8d71dd30a711834b07781b9c89feaac33fd332f60507699282740066",
+      "url": "https://huggingface.co/google-t5/t5-small/resolve/df1b051c49625cf57a3d0d8d3863ed4d13564fe4/tokenizer.json"
+    },
+    "assets/encoders/t5-small/tokenizer_config.json": {
+      "bytes": 2324,
+      "sha256": "d1e7146101aa96282057f374aa9c3b260fba2109e5990edb1775d6efc70ffa3c",
+      "url": "https://huggingface.co/google-t5/t5-small/resolve/df1b051c49625cf57a3d0d8d3863ed4d13564fe4/tokenizer_config.json"
+    }
+  }
+}

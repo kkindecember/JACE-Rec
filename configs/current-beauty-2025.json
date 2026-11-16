@@ -1,0 +1,41 @@
+{
+  "domain": "Beauty",
+  "lexical_type": "hierarchy_v1_c128_l7_len32768_split",
+  "parent_epoch": 30,
+  "score_scale": 20.0,
+  "text_recency_decay": 0.1,
+  "gram_history": 20,
+  "sas_history": 50,
+  "text_history": "full visible",
+  "beam_size": 50,
+  "length_penalty": 1.0,
+  "training": {
+    "seed": 2,
+    "updates": 400,
+    "batch_size": 32,
+    "lr": 0.01,
+    "weight_decay": 0.001,
+    "snapshots": [
+      0,
+      300,
+      400
+    ]
+  },
+  "paths": {
+    "data": "assets/data/Beauty",
+    "cache": "runs/beauty-2025/cache",
+    "gram": "assets/checkpoints/Beauty/2025/gram.pt",
+    "sasrec": "assets/checkpoints/Beauty/2025/sasrec.pt",
+    "heads": "runs/beauty-2025/heads",
+    "embeddings": "assets/data/Beauty/qwen4_embeddings.npz",
+    "t5": "assets/encoders/t5-small",
+    "qwen": "assets/encoders/qwen3-embedding-4b",
+    "catalog": "assets/checkpoints/Beauty/2025/catalog.json",
+    "gram_train": "assets/data/Beauty/gram_train.jsonl",
+    "normalization": "assets/checkpoints/Beauty/2025/normalization.json",
+    "head": "assets/checkpoints/Beauty/2025/head.pt"
+  },
+  "model_version": "no_selfmatch_v2",
+  "generator_seed": 2025,
+  "expert_gate_seed": 2
+}

@@ -1,0 +1,40 @@
+{
+  "repository": "https://github.com/skleee/GRAM",
+  "revision": "7ac4d9272a57beed9df35c27ea34221f6e4a8fb1",
+  "transformations": [
+    "Remove unused IPython debug imports",
+    "Use reshape instead of view in the FiD wrapper for non-contiguous inputs"
+  ],
+  "files": {
+    "model/gram.py": {
+      "url": "https://raw.githubusercontent.com/skleee/GRAM/7ac4d9272a57beed9df35c27ea34221f6e4a8fb1/src/model/gram.py",
+      "download_sha256": "4c88dafdc418484a44ccc397d5536fa82fd888255f855507d413adbed15ecdd2",
+      "installed_sha256": "902b8f3f5c1f1dab78088f2a69308d5f08190a884bef71d026141f0bce3001b7"
+    },
+    "model/gram_t5.py": {
+      "url": "https://raw.githubusercontent.com/skleee/GRAM/7ac4d9272a57beed9df35c27ea34221f6e4a8fb1/src/model/gram_t5.py",
+      "download_sha256": "6c36c1bf09f62948d16f016ab8dd67ac962d9b86f74fa5569310c8dd5ee09e08",
+      "installed_sha256": "f43e487834efa75a915bf3f0c3407e49465f47fe5e0afdaef9a50fe8bd9abb95"
+    },
+    "model/gram_t5_config.py": {
+      "url": "https://raw.githubusercontent.com/skleee/GRAM/7ac4d9272a57beed9df35c27ea34221f6e4a8fb1/src/model/gram_t5_config.py",
+      "download_sha256": "cc49f51c86dddbdc77a67c9b4fb841b78c1a7844e51df94baa375a30146d0631",
+      "installed_sha256": "cc49f51c86dddbdc77a67c9b4fb841b78c1a7844e51df94baa375a30146d0631"
+    },
+    "model/gram_t5_modeling.py": {
+      "url": "https://raw.githubusercontent.com/skleee/GRAM/7ac4d9272a57beed9df35c27ea34221f6e4a8fb1/src/model/gram_t5_modeling.py",
+      "download_sha256": "1e16c22a2d5bc6e3353cedda6976b613634c0c19803f4c62464288259688f6c7",
+      "installed_sha256": "862fe2306a31bfe102cbff11fd34ca68e4d32a2d61a495aab0e0189042c93bd5"
+    },
+    "model/gram_t5_outputs.py": {
+      "url": "https://raw.githubusercontent.com/skleee/GRAM/7ac4d9272a57beed9df35c27ea34221f6e4a8fb1/src/model/gram_t5_outputs.py",
+      "download_sha256": "6b6e2f2a2d0faba8c27e7906eb8cbe9abd6e7d0654f881adf32ba1229ed3c07b",
+      "installed_sha256": "6b6e2f2a2d0faba8c27e7906eb8cbe9abd6e7d0654f881adf32ba1229ed3c07b"
+    },
+    "processor/Collator.py": {
+      "url": "https://raw.githubusercontent.com/skleee/GRAM/7ac4d9272a57beed9df35c27ea34221f6e4a8fb1/src/processor/Collator.py",
+      "download_sha256": "1e0d92f128e4ef81ba3f67405c58b9864c791f250eef1fd423f48536e0465301",
+      "installed_sha256": "1e0d92f128e4ef81ba3f67405c58b9864c791f250eef1fd423f48536e0465301"
+    }
+  }
+}
