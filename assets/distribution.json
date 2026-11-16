@@ -1,7 +1,7 @@
 {
   "release_tag": "assets-v1",
   "hosting": "GitHub Releases",
-  "publication_status": "prepared_locally",
+  "publication_status": "published",
   "bundles": {
     "toys": {
       "file": "jace-toys-assets-v1.tar.gz",
@@ -603,5 +603,7 @@
       "sha256": "d1e7146101aa96282057f374aa9c3b260fba2109e5990edb1775d6efc70ffa3c",
       "url": "https://huggingface.co/google-t5/t5-small/resolve/df1b051c49625cf57a3d0d8d3863ed4d13564fe4/tokenizer_config.json"
     }
-  }
+  },
+  "repository": "kkindecember/JACE-Rec",
+  "release_url": "https://github.com/kkindecember/JACE-Rec/releases/tag/assets-v1"
 }

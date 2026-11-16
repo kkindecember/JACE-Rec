@@ -3,9 +3,7 @@
 ## Release scope
 
 The method and CPU checks are self-contained. Dataset runs additionally install
-the pinned GRAM backend and restore the dataset asset archives. The four
-archives are prepared and verified locally; their GitHub upload is pending.
-Once uploaded under the `assets-v1` release tag:
+the pinned GRAM backend and restore the dataset asset archives. The four archives are available under the `assets-v1` GitHub release tag:
 
 ```bash
 python scripts/install_gram_backend.py

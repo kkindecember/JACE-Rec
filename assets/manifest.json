@@ -1,6 +1,6 @@
 {
   "model_version": "no_selfmatch_v2",
-  "public_download": null,
+  "public_download": "https://github.com/kkindecember/JACE-Rec/releases/download/assets-v1",
   "scope": "GRAM saved-weight evaluation and gate-cache reconstruction",
   "configurations": {
     "current-beauty-2023.json": {
