@@ -15,6 +15,7 @@ The CPU example runs without external assets. Dataset evaluation uses the
 downloadable GRAM backend and one asset archive per dataset. The archives
 contain the exact processed inputs and selected model tensors from our runs.
 The release archives are prepared locally; their GitHub upload is pending.
+Archives are distributed in small parts; the download script joins and verifies them automatically.
 
 ## Installation
 

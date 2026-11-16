@@ -88,6 +88,23 @@ def extract(archive_path, root, expected):
         raise ValueError('Archive is missing declared files')
 
 
+def assemble(parts, destination, record):
+    """Join verified archive parts in manifest order, then verify the full archive."""
+    if destination.exists():
+        verify(destination, record)
+        return destination
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    temporary = destination.with_name(destination.name+'.assembling')
+    with temporary.open('wb') as target:
+        for source, part in parts:
+            verify(source, part)
+            with source.open('rb') as stream:
+                shutil.copyfileobj(stream, target, length=8 << 20)
+    verify(temporary, record)
+    temporary.replace(destination)
+    return destination
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--domain', choices=['toys', 'beauty', 'sports', 'yelp', 'all'], default='toys')
@@ -109,9 +126,22 @@ def main():
     domains = list(distribution['bundles']) if args.domain == 'all' else [args.domain]
     for domain in domains:
         record = distribution['bundles'][domain]
-        if args.source:
+        if args.source and (args.source/record['file']).exists():
             archive = args.source/record['file']
             verify(archive, record)
+        elif record.get('parts'):
+            parts = []
+            for part in record['parts']:
+                if args.source:
+                    source = args.source/part['file']
+                    verify(source, part)
+                else:
+                    url = f'https://github.com/{args.repository}/releases/download/{distribution["release_tag"]}/{part["file"]}'
+                    source = download(url, ROOT/'.cache/downloads'/part['file'], part)
+                parts.append((source, part))
+            archive = assemble(parts, ROOT/'.cache/downloads'/record['file'], record)
+        elif args.source:
+            raise ValueError('Missing local archive: '+str(args.source/record['file']))
         else:
             url = f'https://github.com/{args.repository}/releases/download/{distribution["release_tag"]}/{record["file"]}'
             archive = download(url, ROOT/'.cache/downloads'/record['file'], record)

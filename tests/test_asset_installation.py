@@ -30,6 +30,21 @@ def archive(path, name, data, symlink=False):
 
 
 class RestoreTests(unittest.TestCase):
+    def test_archive_parts_are_verified_and_joined_in_order(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); first = root/'part1'; second = root/'part2'; target = root/'archive'
+            first.write_bytes(b'abc'); second.write_bytes(b'def')
+            parts = [(first, record(b'abc')), (second, record(b'def'))]
+            fetch.assemble(parts, target, record(b'abcdef'))
+            self.assertEqual(target.read_bytes(), b'abcdef')
+            with self.assertRaises(ValueError):
+                fetch.assemble(list(reversed(parts)), root/'wrong-order', record(b'abcdef'))
+            self.assertFalse((root/'wrong-order').exists())
+            second.write_bytes(b'bad')
+            with self.assertRaises(ValueError):
+                fetch.assemble(parts, root/'corrupt', record(b'abcdef'))
+            self.assertFalse((root/'corrupt').exists())
+
     def test_extract_hashes_and_preserves_existing_data(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)/'checkout'; root.mkdir()

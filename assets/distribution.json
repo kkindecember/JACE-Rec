@@ -35,6 +35,113 @@
         "assets/data/Toys/train_samples.json",
         "assets/data/Toys/upstream_sequences.jsonl",
         "assets/data/Toys/validation_samples.json"
+      ],
+      "parts": [
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part001",
+          "bytes": 67108864,
+          "sha256": "f040c48f772c5a051269fc05c29e6e7effffff226bfbf1e72b6e6adf4f2133a8"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part002",
+          "bytes": 67108864,
+          "sha256": "c514db914882f850ed7fb9f8c74f4bb94939acaa505189231f5ba2251156e17c"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part003",
+          "bytes": 67108864,
+          "sha256": "9fa342e21e378df200be94e57563932f7d63a120a0b905cdb32fb67bddc0a10e"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part004",
+          "bytes": 67108864,
+          "sha256": "e668449d3bb779ad72e4bf9aca7e63db1d792489a65512654209ec30a244c3b0"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part005",
+          "bytes": 67108864,
+          "sha256": "3176f523bb488b3a40ca65b5d290f03093d04c8b2a60307c5de753f25d813bb9"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part006",
+          "bytes": 67108864,
+          "sha256": "b2dc7f6851df219fe7714f79ee31f1baf48e68724fb8de0db6e8bf33a7990bff"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part007",
+          "bytes": 67108864,
+          "sha256": "b9a94fa159ce0c5db33a6c90d7445c4e69abc72a617832d612d3057e1216a109"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part008",
+          "bytes": 67108864,
+          "sha256": "1facde894c314b2476cf80603a8afe65fb7942445fbf62e9ea2a657e7c877b27"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part009",
+          "bytes": 67108864,
+          "sha256": "5522e5cc08f351a1990e3768016ff2237e0ba845d21b4910d8c56f7624f24b16"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part010",
+          "bytes": 67108864,
+          "sha256": "746b2f494796109b0f1b338db32997ab9264afb30dcc310c965b1bc8c8c8394a"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part011",
+          "bytes": 67108864,
+          "sha256": "28d2fa89ec6681f1313939dd670a29fdcd2c7d3473648468cc2f708bc86a87c6"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part012",
+          "bytes": 67108864,
+          "sha256": "cc76a9f122042b38ba3157c4d3621a0b4a42d93fe2ec9ab3b1b078bcfcef180f"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part013",
+          "bytes": 67108864,
+          "sha256": "2ef7ef61b4324611af272eb3429a4f5db87b75f5f1df4fdfbde6f70d30921993"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part014",
+          "bytes": 67108864,
+          "sha256": "019c97f4ef17693807ae3123a7adfa5488c19caa8741f49e0f3a125839687297"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part015",
+          "bytes": 67108864,
+          "sha256": "b2c0ce62651bfe0fff9903b8539a05d558af6d6831a228069b2b721234d29cd5"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part016",
+          "bytes": 67108864,
+          "sha256": "36d1780bdf2587b53b83c68abf6a029da82e0a2be1327116ef43f40f9b94db4a"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part017",
+          "bytes": 67108864,
+          "sha256": "40f550786250fb25023a5e4deb132695a7b589ab3d446e5f317952a5d3319177"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part018",
+          "bytes": 67108864,
+          "sha256": "901f47d3ed1ed103bd8bbf95a95980c96c631843cb2928fc3488dc3b87903c12"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part019",
+          "bytes": 67108864,
+          "sha256": "13b27ad25f1855f13d04b6012facac5713f033d675318fa134305325c126b37b"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part020",
+          "bytes": 67108864,
+          "sha256": "93a0cb250b595891e0409f26f8a9f9f588bcd3ce3f136b2182f82cc601c9e4a9"
+        },
+        {
+          "file": "jace-toys-assets-v1.tar.gz.part021",
+          "bytes": 7781465,
+          "sha256": "10b55c6805f107b08d9fd3e418608904a7f3bc0ff61ac2b2c63519cdf56b4c44"
+        }
       ]
     },
     "beauty": {
@@ -69,6 +176,113 @@
         "assets/data/Beauty/train_samples.json",
         "assets/data/Beauty/upstream_sequences.jsonl",
         "assets/data/Beauty/validation_samples.json"
+      ],
+      "parts": [
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part001",
+          "bytes": 67108864,
+          "sha256": "a1b87124c516ea790926876653aa7f02804b05dc4a28a20b239ee552d8ef8e24"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part002",
+          "bytes": 67108864,
+          "sha256": "9d1afadf554eb2daa87b0fb85bc0ca4c7972960230edffdc5d47d207de60c3c5"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part003",
+          "bytes": 67108864,
+          "sha256": "acda78c5f3e93135605665650731e18414ea6ba3ccb4c43ae575541bbac358a7"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part004",
+          "bytes": 67108864,
+          "sha256": "4e81cbedd008004485d6c4dc869264c4c04987d87f51d9a333fe35a8726466cd"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part005",
+          "bytes": 67108864,
+          "sha256": "9df402ca9fa0065a683ea0316431af4cf259b82df976054cfdaa01cc3b69f712"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part006",
+          "bytes": 67108864,
+          "sha256": "2e402bfd377ebdd52545bfeeab048bd5d0f477d9462b089fa2a08890c35a4ac0"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part007",
+          "bytes": 67108864,
+          "sha256": "c34f0413245b22625c53c76dd3dc1a8f0fd8376164c24e249650b48eebb5c3a3"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part008",
+          "bytes": 67108864,
+          "sha256": "4065bc59efd0f3d8f04e7377753aec9fbf3cdb3e182d103ccca95194e15e1079"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part009",
+          "bytes": 67108864,
+          "sha256": "1ba6a3b3ecc74201d2d14a8fd41628a35fa043f17cb791addbeb46d47d63505f"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part010",
+          "bytes": 67108864,
+          "sha256": "3c81c8d352a693e16ce7be7caab4c9b7c48c3fda14be4f2c110a0b647fd6ba78"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part011",
+          "bytes": 67108864,
+          "sha256": "9ccb9c45b416a006915aa6659c995a7d71155d77044f51fce5a958c3119bfb8b"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part012",
+          "bytes": 67108864,
+          "sha256": "c90cf6f47c72da749feb1656bcd05ba828de797e4a7eadc81548598afcb98035"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part013",
+          "bytes": 67108864,
+          "sha256": "ab0e31230283f7e89fda0235242d170a52fc31bf77b7059c12b37df34b5257cf"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part014",
+          "bytes": 67108864,
+          "sha256": "595aa96f00eb9fc1dd52488c2a76a2b88d9dd409cbd95ab6a700a06bd7722488"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part015",
+          "bytes": 67108864,
+          "sha256": "486e8b6f8f326c2273e6c8bd3ac62f38b814fa913747f03a826a151d88245fdc"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part016",
+          "bytes": 67108864,
+          "sha256": "cc6162037e6c98b08b84dd199f79d6e5ceee0b31f20aee82b11df82ef09f1a03"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part017",
+          "bytes": 67108864,
+          "sha256": "ae6bd19ab04e98b57f3d62ac0228fb5452d15dfdc95b74284304279d59d72130"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part018",
+          "bytes": 67108864,
+          "sha256": "6b87b2a74386a49757d447ebca3354645d33fd0dee22d0efbf2bf4f52427139c"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part019",
+          "bytes": 67108864,
+          "sha256": "b91cb1904d283e3aba81aa3a1ab244905823d59fe493a51d7a33130603b2ef8b"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part020",
+          "bytes": 67108864,
+          "sha256": "3be0b5cfc7af1c5ea00667df08d879353205d1e666ab3cf82fcafda895f8c853"
+        },
+        {
+          "file": "jace-beauty-assets-v1.tar.gz.part021",
+          "bytes": 18410668,
+          "sha256": "02a2f7847498bb132511b5e019e151165e189f5950ba1bf8b65cffc7aae3f21f"
+        }
       ]
     },
     "sports": {
@@ -103,6 +317,118 @@
         "assets/data/Sports/train_samples.json",
         "assets/data/Sports/upstream_sequences.jsonl",
         "assets/data/Sports/validation_samples.json"
+      ],
+      "parts": [
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part001",
+          "bytes": 67108864,
+          "sha256": "1032d73d04de0fd2f3972a539ac87e3f411e3046b2c2e7ed97ae5bb7917ecaaa"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part002",
+          "bytes": 67108864,
+          "sha256": "27340e9a699918c5bc12e586b28ebfa3c1554981c0f447fbde5f1613aa5393f9"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part003",
+          "bytes": 67108864,
+          "sha256": "57e6956c8eed6a4cf484b2b834cf34deb444ab4ffb1aa6c6d5883fe54f4050ae"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part004",
+          "bytes": 67108864,
+          "sha256": "ca860f7d0faeaf7a17dddeb8d02331d35a1b68b081f56373bda485665f6fc642"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part005",
+          "bytes": 67108864,
+          "sha256": "188ff50f962fddd3429533ee1e0088af595956a551aacb922cd00a72b11db724"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part006",
+          "bytes": 67108864,
+          "sha256": "1884459d87662526936e56bc1425a82fbb9c2ff72e4858e8738c7430e05a5709"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part007",
+          "bytes": 67108864,
+          "sha256": "56769343131cc306789936988092a6b81423d798706cadfc475665418754a90d"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part008",
+          "bytes": 67108864,
+          "sha256": "c16a39d6c4b183a3a0e90b939866cdf38ff8b96296e89390ecbc3a85cd506bc6"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part009",
+          "bytes": 67108864,
+          "sha256": "11a0ddcd4e2c58b4237f9f3ee76bb69276a11060a56f5807bbe45fb83257d884"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part010",
+          "bytes": 67108864,
+          "sha256": "3fdb4935f65d4f2fe90150cac76ec13b04e1a5029307e90ea9f4bd5ab0b2928b"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part011",
+          "bytes": 67108864,
+          "sha256": "7896550d642e45ee110ce2229407ed8282aabd6d4a58ddce7a96069c8dc317f0"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part012",
+          "bytes": 67108864,
+          "sha256": "1395e1c4dfb2441d5fb6aec408049ea6d9c1912d4ff973dc4c8d64f6eddb0ac3"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part013",
+          "bytes": 67108864,
+          "sha256": "675b25312a6055a63612dc88148b4b3991152f50c9c66a6f627212916c3cd336"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part014",
+          "bytes": 67108864,
+          "sha256": "37736c8e8eb9915d6125925137d76ccb3310020a5ecb2f9be46c5c101d1ad453"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part015",
+          "bytes": 67108864,
+          "sha256": "17f905e13080072dd3ed9ffd1a80f4ebdb7707efbebb09cc82b2a387a14902d2"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part016",
+          "bytes": 67108864,
+          "sha256": "9712cf6a4e5582846da1eba1cc788cf6c35aa76dd54fe99b649f84bc2ce16c2a"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part017",
+          "bytes": 67108864,
+          "sha256": "c95187eb55c798df824f6d351825f249e6928133abbca27c78daa81fdc813e73"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part018",
+          "bytes": 67108864,
+          "sha256": "81e458d19882d324f46676d50207b65abeeae925a2aa2fdd8830c4f3db54b355"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part019",
+          "bytes": 67108864,
+          "sha256": "058dceab07b61f8312913267fa64cd15b5000cff4add491c2418cf44828f60d2"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part020",
+          "bytes": 67108864,
+          "sha256": "5f7cd33da0ba800d3eba409b4669468d3a22ae9e5c71602ccc9309f0191391ea"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part021",
+          "bytes": 67108864,
+          "sha256": "1fbdbed40f0b45650451ad4cf5c8ed892191b43916d4dc481bbcf0d84ec8a0fa"
+        },
+        {
+          "file": "jace-sports-assets-v1.tar.gz.part022",
+          "bytes": 27969119,
+          "sha256": "9a4c1a0f4499949a4de506d308f3767a7c0f865139d3b917265df04e10cc116f"
+        }
       ]
     },
     "yelp": {
@@ -136,6 +462,118 @@
         "assets/data/Yelp/train_samples.json",
         "assets/data/Yelp/upstream_sequences.jsonl",
         "assets/data/Yelp/validation_samples.json"
+      ],
+      "parts": [
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part001",
+          "bytes": 67108864,
+          "sha256": "cdd1e4cca3a1f58bb327e503d68433db8e4a77672731382e737017a08f0e61ee"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part002",
+          "bytes": 67108864,
+          "sha256": "fb299ed1a54e92cdb555f187e8f9f3846c4fbe3687164b9d44b523988906b2fd"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part003",
+          "bytes": 67108864,
+          "sha256": "97da8340a94a05fa730910911528300eff57ba701ca53694471fc124dd117c23"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part004",
+          "bytes": 67108864,
+          "sha256": "138be144487dd12a574d7b6ab413efdb8a2127dac61287f47e7167d2052a07eb"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part005",
+          "bytes": 67108864,
+          "sha256": "7cb8ad5618f35dc25f41f5c9a0b446b480ff4c04c43d44c49c2c6a08bca27491"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part006",
+          "bytes": 67108864,
+          "sha256": "fed1b162bd8b122c74f2995702775876895261bd4b2146e0c179ead5bc9c831b"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part007",
+          "bytes": 67108864,
+          "sha256": "ebe4b95ce8adb94bddbbb12106eaebf0cbaddb5af407a9c8fc04382ba1868ab2"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part008",
+          "bytes": 67108864,
+          "sha256": "036baefd196f72fac5fbde5ef502d5e2463c0eeec7d4d97d3ec65f9ae53c60a7"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part009",
+          "bytes": 67108864,
+          "sha256": "b4a495ed4b086c2348a69f9fdee70d169445f9c5cf00b4cc7712426eda70d3f1"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part010",
+          "bytes": 67108864,
+          "sha256": "d68b721063cf92093baabbba0a8b22e92a64c862f99a2732a63c1e34855f99ed"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part011",
+          "bytes": 67108864,
+          "sha256": "d58a420b710f581c838152f6ba640459cc65ca02713eb6c241ed7fa1681a361b"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part012",
+          "bytes": 67108864,
+          "sha256": "3e10f312266396b96879535982644722877876dfe18bd367b8abb1728560f092"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part013",
+          "bytes": 67108864,
+          "sha256": "27f39ee448494c41caf5fedb404f48cc52d3fa7f0d3f15f3d21897aa34d718a8"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part014",
+          "bytes": 67108864,
+          "sha256": "b44c18afb066a5eb107355c04ba830862919579f89dbf7ffb9011e580efeaac4"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part015",
+          "bytes": 67108864,
+          "sha256": "eff601f8953cb8ca3660ad902e31ac5d5346045bcdbbd90d9e08c80e37e565ac"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part016",
+          "bytes": 67108864,
+          "sha256": "0e4546d12f0cb9e58e46e13cb9d47c7359be0b212e3d686138d1c05536ecf091"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part017",
+          "bytes": 67108864,
+          "sha256": "2ae848db831b16829032146e133af5e65038b6418aefd968fd648b64dfd43a67"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part018",
+          "bytes": 67108864,
+          "sha256": "245ee5a3d1921b8035a246610b0a10e844a961a14a3b7cb5611fd72836df7990"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part019",
+          "bytes": 67108864,
+          "sha256": "235d762344faf49e44630658bda181f9643cd8536e3c95f2bd4b666952264fde"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part020",
+          "bytes": 67108864,
+          "sha256": "f5cb2d1f016a97d24b87657704eb287c71263c58c9cc93bf296232384e6a945d"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part021",
+          "bytes": 67108864,
+          "sha256": "6043310ec604600b697ef8f7a51474e3316ff9523c1ea18085fac503319b05d0"
+        },
+        {
+          "file": "jace-yelp-assets-v1.tar.gz.part022",
+          "bytes": 30453911,
+          "sha256": "bab277dc1cceab7db343574da6bf0e5a3714b96da3ed4704885d6e4e1e83ac43"
+        }
       ]
     }
   },

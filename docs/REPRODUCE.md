@@ -12,7 +12,9 @@ python scripts/install_gram_backend.py
 python scripts/fetch_assets.py --repository kkindecember/JACE-Rec --domain toys
 ```
 
-Use `--domain all` for all four datasets. Each archive includes all three seeds,
+Use `--domain all` for all four datasets. Archives are distributed as 64 MiB
+parts, which the script downloads, verifies and joins automatically. A failed
+download resumes from cached parts on the next invocation. Each archive includes all three seeds,
 precomputed Qwen vectors, split definitions and the inputs for upstream/gate
 retraining. For archives already on disk, replace `--repository kkindecember/JACE-Rec`
 with `--from /path/to/release-assets`. T5 files are downloaded directly from the
